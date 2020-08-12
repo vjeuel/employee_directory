@@ -1,0 +1,53 @@
+
+.title {
+   background: url(./title-background.jpg);
+   background-size: cover;
+   background-color: var(--p1);
+   max-width: 100vw;
+   padding: 3rem;
+   display: flex;
+   flex-flow: column;
+   border-bottom: 1rem solid #F2BB16;
+}
+
+   .title h1 {
+      background-color: var(--s1);
+      padding: 1.5rem 5rem;
+      justify-content: center;
+      align-self: center;
+      font-size: 5rem;
+      color: var(--dk);
+      margin-bottom: -1rem;
+      z-index: 2;
+   }
+
+   .title h3 {
+      align-self: center;
+      background-color: var(--dk);
+      color: var(--wt);
+      padding: 2rem 5rem;
+      z-index: 1;
+   }
+
+
+
+
+
+
+
+
+
+
+/* Color Theme Swatches in Hex */
+.A { color: #011F26; }
+.A { color: #118C76; }
+.A { color: #25D9B8; }
+.A { color: #F2BB16; }
+.A { color: #BF800B; }
+
+/* Color Theme Swatches in RGBA */
+.A { color: rgba(0, 31, 38, 1); }
+.A { color: rgba(16, 140, 117, 1); }
+.A { color: rgba(36, 216, 183, 1); }
+.A { color: rgba(242, 187, 21, 1); }
+.A { color: rgba(191, 128, 11, 1); }

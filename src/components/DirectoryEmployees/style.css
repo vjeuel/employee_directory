@@ -1,0 +1,12 @@
+.rowEmployees {
+   background-color: var(--wt);
+   margin-bottom: 1rem;
+   color: var(--dk);
+   padding: 1rem;
+   border-radius: 2rem;
+}
+
+   .colTitle .colEmployees {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 1.25rem;
+   }

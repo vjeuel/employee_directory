@@ -1,0 +1,7 @@
+.container {
+   background-color: var(--dk);
+   height: 20rem;
+   width: 90%;
+   margin: 5rem auto;
+   padding: 2rem;
+}

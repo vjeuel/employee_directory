@@ -1,38 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --dk: #011F26;
+  --p1: #118C76;
+  --p2: #25D9B8;
+  --s1: #F2BB16;
+  --s2: #BF800B;
+  --wt: #f2f2f2;
+}
+
+html {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 10px;
+}
+
+h1 {
+  font-family: 'Special Elite', cursive;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: var(--dk);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* FONTS ---------------------------------------
+font-family: 'Libre Baskerville', serif;
+font-family: 'Special Elite', cursive;
+*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* COLORS -------------------------------------
+Color Theme Swatches in Hex */
+.A { color: #011F26; }
+.A { color: rgba(0, 31, 38, 1); }
+.A { color: #118C76; }
+.A { color: rgba(16, 140, 117, 1); }
+.A { color: #25D9B8; }
+.A { color: rgba(36, 216, 183, 1); }
+.A { color: #F2BB16; }
+.A { color: rgba(242, 187, 21, 1); }
+.A { color: #BF800B; }
+.A { color: rgba(191, 128, 11, 1); }
+.A { color: #f2f2f2; }
+.A { color: rgba(242, 242, 242, 1); }
