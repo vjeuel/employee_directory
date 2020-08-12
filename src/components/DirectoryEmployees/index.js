@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./style.css"
 import employees from "../employees.json";
+import EmployeeRow from "../EmployeeRow";
 
 class DirectoryEmployees extends Component {
    state = {
@@ -12,7 +13,7 @@ class DirectoryEmployees extends Component {
          <div className="rowEmployees">
             <div className="colTitle">
                {this.state.employees.map(employee => (
-               <div className="colEmployees"
+               <EmployeeRow
                   id = { employee.id }
                   key = { employee.id }
                   photo = { employee.photo }

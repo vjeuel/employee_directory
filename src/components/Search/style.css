@@ -13,8 +13,7 @@
       padding: 1.5rem;
       border-radius: 5rem;
       border: 0.5rem solid var(--s1);
-      box-shadow: 5px 5px 15px 2px var(--s2),
-                  inset 2px 2px 4px var(--dk);
+      box-shadow: 5px 5px 15px 2px var(--s2);
    }
    
    .search input:hover {

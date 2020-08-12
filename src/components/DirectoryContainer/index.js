@@ -1,13 +1,16 @@
 import React from "react";
 import "./style.css";
-import DirectoryColTitle from "../DirectoryColTitle";
-import DirectoryEmployees from "../DirectoryEmployees";
+import Table from "../Table";
+import TableHead from "../TableHead";
+import TableBody from "../TableBody";
 
 function DirectoryContainer() {
    return (
       <div className="container">
-         <DirectoryColTitle />
-         <DirectoryEmployees />
+         <Table>
+            <TableHead />
+            <TableBody />
+         </Table>
       </div>
    );
 };
