@@ -7,9 +7,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
+        <div className="App-header">
           <Route exact path="/" component={Directory} />
-        </header>
+        </div>
       </div>
     </Router>
   );

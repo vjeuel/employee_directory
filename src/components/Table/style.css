@@ -1,0 +1,14 @@
+table {
+   width: 100%;
+}
+
+table > .tableHead {
+   font-family: 'Special Elite', cursive;
+   font-size: 1.5rem;
+   color: var(--wt);
+   vertical-align: middle;
+}
+
+table > .tableHead > th {
+   padding: 1rem;
+}

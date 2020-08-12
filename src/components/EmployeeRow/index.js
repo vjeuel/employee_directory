@@ -3,16 +3,15 @@ import "./style.css";
 
 function EmployeeRow(props) {
    return (
-      <div className="rowEmployees">
-         <img></img>
-         <p>{props.first_name}</p>
-         <p>{props.last_name}</p>
-         <p>{props.phone_number}</p>
-         <p>{props.email}</p>
-         <p>{props.dob}</p>
-      </div>
-   ); 
-};  
-
+      <tr className="employeeRow">
+         <td><img alt="employee"></img></td>
+         <td>{props.first_name}</td>
+         <td>{props.last_name}</td>
+         <td>{props.phone_number}</td>
+         <td>{props.email}</td>
+         <td>{props.dob}</td>
+      </tr>
+   );
+};
 
 export default EmployeeRow;
