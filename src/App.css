@@ -14,6 +14,7 @@
 html {
   font-family: 'Libre Baskerville', serif;
   font-size: 10px;
+  background-color: var(--dk);
 }
 
 h1 {
@@ -26,7 +27,7 @@ h1 {
 
 .App-header {
   background-color: var(--dk);
-  min-height: 100vh;
+  height: 100%;
 }
 
 /* FONTS ---------------------------------------

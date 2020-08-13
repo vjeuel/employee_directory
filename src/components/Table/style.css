@@ -1,14 +1,20 @@
-table {
+main {
    width: 100%;
 }
 
-table > .tableHead {
+main > .tableHead {
    font-family: 'Special Elite', cursive;
    font-size: 1.5rem;
    color: var(--wt);
-   vertical-align: middle;
+   margin-bottom: 1rem;
 }
 
-table > .tableHead > th {
+main > .tableHead > div {
    padding: 1rem;
 }
+
+main > .tableHead {
+   display: grid;
+   grid-template-columns: 13% 13% 13% 13% 35% 13%;
+}
+

@@ -3,14 +3,16 @@ import "./style.css";
 
 function EmployeeRow(props) {
    return (
-      <tr className="employeeRow">
-         <td><img alt="employee"></img></td>
-         <td>{props.first_name}</td>
-         <td>{props.last_name}</td>
-         <td>{props.phone_number}</td>
-         <td>{props.email}</td>
-         <td>{props.dob}</td>
-      </tr>
+      <div className="employeeRow">
+         <div>
+            <img src={props.photo} alt={props.first_name} />
+         </div>
+         <div>{props.first_name}</div>
+         <div>{props.last_name}</div>
+         <div>{props.phone_number}</div>
+         <div>{props.email}</div>
+         <div>{props.dob}</div>
+      </div>
    );
 };
 

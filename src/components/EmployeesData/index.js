@@ -1,28 +1,29 @@
 import React, { Component } from "react";
 import "./style.css"
-import employees from "../employees.json";
+import employeesInfo from "../employees.json";
 import EmployeeRow from "../EmployeeRow";
 
 class EmployeesData extends Component {
    state = {
-      employees
+      employeesInfo
    };
    
    render() {
       return (
-         this.state.employees.map(employee => {
-            const { id, photo, first_name, last_name, phone_number, email, dob } = employee;
-            <EmployeeRow
-               id={id}
-               key={id}
-               photo={photo}
-               first_name={first_name.first_name}
-               last_name={last_name}
-               phone_number={phone_number}
-               email={email}
-               dob={dob}
-            />
-         })
+         <div>
+            {this.state.employeesInfo.map(employee => (
+               <EmployeeRow
+                  id={employee.id}
+                  key={employee.id}
+                  photo={employee.photo}
+                  first_name={employee.first_name}
+                  last_name={employee.last_name}
+                  phone_number={employee.phone_number}
+                  email={employee.email}
+                  dob={employee.dob}
+               />
+            ))}
+         </div>
       );
    };
 }

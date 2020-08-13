@@ -1,14 +1,16 @@
 [
    {
       "id": 1,
+      "photo": "../img/Riley_Moore.jpg",
       "first_name": "Riley",
       "last_name": "Moore",
       "phone_number": "718-854-5922",
       "email": "riley_moore@companyname.com",
-      "dob": "02/09/1992"
+      "dob": "02/09/1976"
    },
    {
       "id": 2,
+      "photo": "../img/Erin_Anderson.jpg",
       "first_name": "Erin ",
       "last_name": "Anderson",
       "phone_number": "510-596-3045",
@@ -17,6 +19,7 @@
    },
    {
       "id": 3,
+      "photo": "../img/Elliot_May.jpg",
       "first_name": "Elliot",
       "last_name": "May",
       "phone_number": "941-276-0935",
@@ -25,6 +28,7 @@
    },
    {
       "id": 4,
+      "photo": "../img/Gene_Brooks.jpg",
       "first_name": "Gene",
       "last_name": "Brooks",
       "phone_number": "617-258-2478",
@@ -33,6 +37,7 @@
    },
    {
       "id": 5,
+      "photo": "../img/Franky_Cunningham.jpg",
       "first_name": "Franky",
       "last_name": "Cunningham",
       "phone_number": "603-616-5754",
@@ -41,6 +46,7 @@
    },
    {
       "id": 6,
+      "photo": "../img/Skylar_Holland.jpg",
       "first_name": "Skylar",
       "last_name": "Holland",
       "phone_number": "610-273-8320",
@@ -49,6 +55,7 @@
    },
    {
       "id": 7,
+      "photo": "../img/Jo_Hutchinson.jpg",
       "first_name": "Jo",
       "last_name": "Hutchinson",
       "phone_number": "210-200-4638",
@@ -57,6 +64,7 @@
    },
    {
       "id": 8,
+      "photo": "../img/Elliot_Santana.jpg",
       "first_name": "Elliot",
       "last_name": "Santana",
       "phone_number": "214-200-3861",
@@ -65,6 +73,7 @@
    },
    {
       "id": 9,
+      "photo": "../img/Gail_Pitts.jpg",
       "first_name": "Gail",
       "last_name": "Pitts",
       "phone_number": "214-207-2475",
@@ -73,6 +82,7 @@
    },
    {
       "id": 10,
+      "photo": "../img/Charlie_Macias.jpg",
       "first_name": "Charlie",
       "last_name": "Macias",
       "phone_number": "214-293-3752",
@@ -81,6 +91,7 @@
    },
    {
       "id": 11,
+      "photo": "../img/Gabe_Brooks.jpg",
       "first_name": "Gabe",
       "last_name": "Brooks",
       "phone_number": "254-309-8208",
@@ -89,6 +100,7 @@
    },
    {
       "id": 12,
+      "photo": "../img/Ash_Fletcher.jpg",
       "first_name": "Ash",
       "last_name": "Fletcher",
       "phone_number": "281-316-3272",
@@ -97,6 +109,7 @@
    },
    {
       "id": 13,
+      "photo": "../img/Cameron_Elliot.jpg",
       "first_name": "Cameron",
       "last_name": "Elliot",
       "phone_number": "325-641-1834",
@@ -105,6 +118,7 @@
    },
    {
       "id": 14,
+      "photo": "../img/Alexis_Riley.jpg",
       "first_name": "Alexis",
       "last_name": "Riley",
       "phone_number": "409-727-5531",
@@ -113,6 +127,7 @@
    },
    {
       "id": 15,
+      "photo": "../img/Silver_Lane.jpg",
       "first_name": "Silver",
       "last_name": "Lane",
       "phone_number": "469-327-6137",
@@ -121,6 +136,7 @@
    },
    {
       "id": 16,
+      "photo": "../img/Jackie_Fox.jpg",
       "first_name": "Jackie",
       "last_name": "Fox",
       "phone_number": "469-233-3591",
@@ -129,14 +145,16 @@
    },
    {
       "id": 17,
+      "photo": "../img/Sam_Morgan.jpg",
       "first_name": "Sam",
       "last_name": "Morgan",
       "phone_number": "214241-0467",
       "email": "sam_morgan@companyname.com",
-      "dob": "10/01/1983"
+      "dob": "10/01/1973"
    },
    {
       "id": 18,
+      "photo": "../img/Ray_Wall.jpg",
       "first_name": "Ray",
       "last_name": "Wall",
       "phone_number": "469-242-2818",
@@ -145,6 +163,7 @@
    },
    {
       "id": 19,
+      "photo": "../img/Alex_Willis.jpg",
       "first_name": "Alex",
       "last_name": "Willis",
       "phone_number": "972-231-5186",
@@ -153,6 +172,7 @@
    },
    {
       "id": 20,
+      "photo": "../img/Elliot_Gates.jpg",
       "first_name": "Elliot",
       "last_name": "Gates",
       "phone_number": "972-225-9225",
@@ -161,6 +181,7 @@
    },
    {
       "id": 21,
+      "photo": "../img/Phoenix_Thomson.jpg",
       "first_name": "Phoenix",
       "last_name": "Thomson",
       "phone_number": "972-222-9834",
@@ -169,6 +190,7 @@
    },
    {
       "id": 22,
+      "photo": "../img/Mel_Ball.jpg",
       "first_name": "Mel",
       "last_name": "Ball",
       "phone_number": "214-814-8294",
@@ -177,6 +199,7 @@
    },
    {
       "id": 23,
+      "photo": "../img/Jody_Hunt.jpg",
       "first_name": "Jody",
       "last_name": "Hunt",
       "phone_number": "972-815-5655",
@@ -185,6 +208,7 @@
    },
    {
       "id": 24,
+      "photo": "../img/Alexis_Butler.jpg",
       "first_name": "Alexis",
       "last_name": "Butler",
       "phone_number": "214-803-5541",
@@ -193,6 +217,7 @@
    },
    {
       "id": 25,
+      "photo": "../img/Ash_Poole.jpg",
       "first_name": "Ash",
       "last_name": "Poole",
       "phone_number": "601-676-6678",
@@ -201,6 +226,7 @@
    },
    {
       "id": 26,
+      "photo": "../img/Clem_Stout.jpg",
       "first_name": "Clem",
       "last_name": "Stout",
       "phone_number": "724-761-3452",
@@ -209,6 +235,7 @@
    },
    {
       "id": 27,
+      "photo": "../img/Sidney_Lucas.jpg",
       "first_name": "Sidney",
       "last_name": "Lucas",
       "phone_number": "919-269-4640",
@@ -217,6 +244,7 @@
    },
    {
       "id": 28,
+      "photo": "../img/Lesley_Giles.jpg",
       "first_name": "Lesley",
       "last_name": "Giles",
       "phone_number": "920-371-9004",
@@ -225,6 +253,7 @@
    },
    {
       "id": 29,
+      "photo": "../img/Sam_Henderson.jpg",
       "first_name": "Sam",
       "last_name": "Henderson",
       "phone_number": "214-532-5088",
