@@ -15,6 +15,7 @@ html {
   font-family: 'Libre Baskerville', serif;
   font-size: 10px;
   background-color: var(--dk);
+  text-align: center;
 }
 
 h1 {

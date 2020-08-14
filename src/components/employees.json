@@ -9,7 +9,7 @@
    },
    {
       "id": 2,
-      "photo": "../img/Erin_Anderson.jpg",
+      "photo": "./img/Erin_Anderson.jpg",
       "name": "Erin Anderson",
       "phone_number": "510-596-3045",
       "email": "erin_anderson@companyname.com",
@@ -17,7 +17,7 @@
    },
    {
       "id": 3,
-      "photo": "../img/Elliot_May.jpg",
+      "photo": "/img/Elliot_May.jpg",
       "name": "Elliot May",
       "phone_number": "941-276-0935",
       "email": "elliot_may@companyname.com",
@@ -25,7 +25,7 @@
    },
    {
       "id": 4,
-      "photo": "../img/Gene_Brooks.jpg",
+      "photo": "img/Gene_Brooks.jpg",
       "name": "Gene Brooks",
       "phone_number": "617-258-2478",
       "email": "gene_brooks@companyname.com",
@@ -33,7 +33,7 @@
    },
    {
       "id": 5,
-      "photo": "../img/Franky_Cunningham.jpg",
+      "photo": "../../img/Franky_Cunningham.jpg",
       "name": "Franky Cunningham",
       "phone_number": "603-616-5754",
       "email": "franky_cunningham@companyname.com",
