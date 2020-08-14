@@ -5,8 +5,7 @@ import Table from "../Table";
 function DirectoryContainer() {
    return (
       <div className="container">
-         <Table>
-         </Table>
+         <Table />
       </div>
    );
 };

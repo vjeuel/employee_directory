@@ -1,5 +1,5 @@
 .search {
-   background-color: var(--wt);
+   background-color: var(--dk);
    padding: 4rem;
 }
 
@@ -13,7 +13,9 @@
       padding: 1.5rem;
       border-radius: 5rem;
       border: 0.5rem solid var(--s1);
-      box-shadow: 5px 5px 15px 2px var(--s2);
+      box-shadow: -5px -5px 15px 2px var(--s2),
+                  inset 0 0 6px var(--dk);;
+      /* box-shadow: 0 0 20px var(--wt); */
    }
    
    .search input:hover {
@@ -21,7 +23,7 @@
       border: 0.5rem solid var(--p2);
       transition: ease-out 0.5s;
       box-shadow: 5px 5px 15px 2px var(--p1),
-                  inset 3px 3px 6px var(--dk);
+                  inset 0 0 6px var(--dk);
    }
 
    .search input::placeholder {

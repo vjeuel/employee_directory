@@ -1,6 +1,6 @@
 .employeeRow {
    background-color: var(--wt);
-   margin-bottom: 0.5rem;
+   margin-bottom: 1rem;
    display: grid;
    grid-template-columns: 13% 13% 13% 13% 35% 13%;
    align-items: center;
