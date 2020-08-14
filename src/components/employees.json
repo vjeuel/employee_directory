@@ -2,8 +2,7 @@
    {
       "id": 1,
       "photo": "../img/Riley_Moore.jpg",
-      "first_name": "Riley",
-      "last_name": "Moore",
+      "name": "Riley Moore",
       "phone_number": "718-854-5922",
       "email": "riley_moore@companyname.com",
       "dob": "02/09/1976"
@@ -11,8 +10,7 @@
    {
       "id": 2,
       "photo": "../img/Erin_Anderson.jpg",
-      "first_name": "Erin ",
-      "last_name": "Anderson",
+      "name": "Erin Anderson",
       "phone_number": "510-596-3045",
       "email": "erin_anderson@companyname.com",
       "dob": "05/28/1998"
@@ -20,8 +18,7 @@
    {
       "id": 3,
       "photo": "../img/Elliot_May.jpg",
-      "first_name": "Elliot",
-      "last_name": "May",
+      "name": "Elliot May",
       "phone_number": "941-276-0935",
       "email": "elliot_may@companyname.com",
       "dob": "12/03/1982"
@@ -29,8 +26,7 @@
    {
       "id": 4,
       "photo": "../img/Gene_Brooks.jpg",
-      "first_name": "Gene",
-      "last_name": "Brooks",
+      "name": "Gene Brooks",
       "phone_number": "617-258-2478",
       "email": "gene_brooks@companyname.com",
       "dob": "08/12/1985"
@@ -38,8 +34,8 @@
    {
       "id": 5,
       "photo": "../img/Franky_Cunningham.jpg",
-      "first_name": "Franky",
-      "last_name": "Cunningham",
+      "name": "Franky Cunningham",
+      
       "phone_number": "603-616-5754",
       "email": "franky_cunningham@companyname.com",
       "dob": "06/02/1989"
@@ -47,8 +43,7 @@
    {
       "id": 6,
       "photo": "../img/Skylar_Holland.jpg",
-      "first_name": "Skylar",
-      "last_name": "Holland",
+      "name": "Skylar Holland",
       "phone_number": "610-273-8320",
       "email": "skylar_holland@companyname.com",
       "dob": "11/05/1987"
@@ -56,8 +51,7 @@
    {
       "id": 7,
       "photo": "../img/Jo_Hutchinson.jpg",
-      "first_name": "Jo",
-      "last_name": "Hutchinson",
+      "name": "Jo Hutchinson",
       "phone_number": "210-200-4638",
       "email": "jo_hutchinson@companyname.com",
       "dob": "05/23/1982"
@@ -65,8 +59,7 @@
    {
       "id": 8,
       "photo": "../img/Elliot_Santana.jpg",
-      "first_name": "Elliot",
-      "last_name": "Santana",
+      "name": "Elliot Santana",
       "phone_number": "214-200-3861",
       "email": "elliot_santana@companyname.com",
       "dob": "07/19/1991"
@@ -74,8 +67,7 @@
    {
       "id": 9,
       "photo": "../img/Gail_Pitts.jpg",
-      "first_name": "Gail",
-      "last_name": "Pitts",
+      "name": "Gail Pits",
       "phone_number": "214-207-2475",
       "email": "gail_pitts@companyname.com",
       "dob": "01/13/1988"
@@ -83,8 +75,7 @@
    {
       "id": 10,
       "photo": "../img/Charlie_Macias.jpg",
-      "first_name": "Charlie",
-      "last_name": "Macias",
+      "name": "Charlie Macias",
       "phone_number": "214-293-3752",
       "email": "charlie_macias@companyname.com",
       "dob": "03/22/1994"
@@ -92,8 +83,7 @@
    {
       "id": 11,
       "photo": "../img/Gabe_Brooks.jpg",
-      "first_name": "Gabe",
-      "last_name": "Brooks",
+      "name": "Gabe Brooks",
       "phone_number": "254-309-8208",
       "email": "gabe_brooks@companyname.com",
       "dob": "06/21/1999"
@@ -101,8 +91,7 @@
    {
       "id": 12,
       "photo": "../img/Ash_Fletcher.jpg",
-      "first_name": "Ash",
-      "last_name": "Fletcher",
+      "name": "Ash Fletcher",
       "phone_number": "281-316-3272",
       "email": "ash_fletcher@companyname.com",
       "dob": "04/11/2000"
@@ -110,8 +99,7 @@
    {
       "id": 13,
       "photo": "../img/Cameron_Elliot.jpg",
-      "first_name": "Cameron",
-      "last_name": "Elliot",
+      "name": "Cameron Elliot",
       "phone_number": "325-641-1834",
       "email": "cameron_elliot@companyname.com",
       "dob": "02/09/1993"
@@ -119,8 +107,7 @@
    {
       "id": 14,
       "photo": "../img/Alexis_Riley.jpg",
-      "first_name": "Alexis",
-      "last_name": "Riley",
+      "name": "Alexis Riley",
       "phone_number": "409-727-5531",
       "email": "alexis_riley@companyname.com",
       "dob": "12/24/1997"
@@ -128,8 +115,7 @@
    {
       "id": 15,
       "photo": "../img/Silver_Lane.jpg",
-      "first_name": "Silver",
-      "last_name": "Lane",
+      "name": "Silver Lane",
       "phone_number": "469-327-6137",
       "email": "silver_lane@companyname.com",
       "dob": "08/12/1991"
@@ -137,8 +123,7 @@
    {
       "id": 16,
       "photo": "../img/Jackie_Fox.jpg",
-      "first_name": "Jackie",
-      "last_name": "Fox",
+      "name": "Jackie Fox",
       "phone_number": "469-233-3591",
       "email": "jackie_fox@companyname.com",
       "dob": "03/19/1985"
@@ -146,8 +131,7 @@
    {
       "id": 17,
       "photo": "../img/Sam_Morgan.jpg",
-      "first_name": "Sam",
-      "last_name": "Morgan",
+      "name": "Sam Morgan",
       "phone_number": "214241-0467",
       "email": "sam_morgan@companyname.com",
       "dob": "10/01/1973"
@@ -155,8 +139,7 @@
    {
       "id": 18,
       "photo": "../img/Ray_Wall.jpg",
-      "first_name": "Ray",
-      "last_name": "Wall",
+      "name": "Ray Wall",
       "phone_number": "469-242-2818",
       "email": "ray_wall@companyname.com",
       "dob": "02/05/1992"
@@ -164,8 +147,7 @@
    {
       "id": 19,
       "photo": "../img/Alex_Willis.jpg",
-      "first_name": "Alex",
-      "last_name": "Willis",
+      "name": "Alex Willis",
       "phone_number": "972-231-5186",
       "email": "alex_willis@companyname.com",
       "dob": "09/12/1992"
@@ -173,17 +155,15 @@
    {
       "id": 20,
       "photo": "../img/Elliot_Gates.jpg",
-      "first_name": "Elliot",
-      "last_name": "Gates",
+      "name": "Elliot Gates",
       "phone_number": "972-225-9225",
       "email": "elliot_gates@companyname.com",
       "dob": "08/02/1999"
    },
    {
       "id": 21,
-      "photo": "../img/Phoenix_Thomson.jpg",
-      "first_name": "Phoenix",
-      "last_name": "Thomson",
+      "photo": "../img/Phoenix_Thompson.jpg",
+      "name": "Phoenix Thompson",
       "phone_number": "972-222-9834",
       "email": "phoenix_thomson@companyname.com",
       "dob": "09/18/1988"
@@ -191,8 +171,7 @@
    {
       "id": 22,
       "photo": "../img/Mel_Ball.jpg",
-      "first_name": "Mel",
-      "last_name": "Ball",
+      "name": "Mel Ball",
       "phone_number": "214-814-8294",
       "email": "mel_ball@companyname.com",
       "dob": "12/11/1996"
@@ -200,8 +179,7 @@
    {
       "id": 23,
       "photo": "../img/Jody_Hunt.jpg",
-      "first_name": "Jody",
-      "last_name": "Hunt",
+      "name": "Jody Hunt",
       "phone_number": "972-815-5655",
       "email": "jody_hunt@companyname.com",
       "dob": "02/12/1993"
@@ -209,8 +187,7 @@
    {
       "id": 24,
       "photo": "../img/Alexis_Butler.jpg",
-      "first_name": "Alexis",
-      "last_name": "Butler",
+      "name": "Alexis Butler",
       "phone_number": "214-803-5541",
       "email": "alexis_butler@companyname.com",
       "dob": "07/23/1992"
@@ -218,8 +195,7 @@
    {
       "id": 25,
       "photo": "../img/Ash_Poole.jpg",
-      "first_name": "Ash",
-      "last_name": "Poole",
+      "name": "Ash Poole",
       "phone_number": "601-676-6678",
       "email": "ash_poole@companyname.com",
       "dob": "01/29/1999"
@@ -227,8 +203,7 @@
    {
       "id": 26,
       "photo": "../img/Clem_Stout.jpg",
-      "first_name": "Clem",
-      "last_name": "Stout",
+      "name": "Clem Stout",
       "phone_number": "724-761-3452",
       "email": "clem_stout@companyname.com",
       "dob": "09/22/2001"
@@ -236,8 +211,7 @@
    {
       "id": 27,
       "photo": "../img/Sidney_Lucas.jpg",
-      "first_name": "Sidney",
-      "last_name": "Lucas",
+      "name": "Sidney Lucas",
       "phone_number": "919-269-4640",
       "email": "sidney_lucas@companyname.com",
       "dob": "11/02/1989"
@@ -245,8 +219,7 @@
    {
       "id": 28,
       "photo": "../img/Lesley_Giles.jpg",
-      "first_name": "Lesley",
-      "last_name": "Giles",
+      "name": "Lesley Giles",
       "phone_number": "920-371-9004",
       "email": "lesley_giles@companyname.com",
       "dob": "04/21/1980"
@@ -254,8 +227,7 @@
    {
       "id": 29,
       "photo": "../img/Sam_Henderson.jpg",
-      "first_name": "Sam",
-      "last_name": "Henderson",
+      "name": "Sam Henderson",
       "phone_number": "214-532-5088",
       "email": "sam_henderson@companyname.com",
       "dob": "12/19/1988"

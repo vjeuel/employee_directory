@@ -1,11 +1,11 @@
 import React from "react";
 import "./style.css";
-import Table from "../Table";
+import EmployeesData from "../EmployeesData";
 
 function DirectoryContainer() {
    return (
       <div className="container">
-         <Table />
+         <EmployeesData />
       </div>
    );
 };

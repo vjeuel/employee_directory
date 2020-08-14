@@ -2,7 +2,7 @@
    background-color: var(--wt);
    margin-bottom: 1rem;
    display: grid;
-   grid-template-columns: 13% 13% 13% 13% 35% 13%;
+   grid-template-columns: 15% 15% 15% 40% 15%;
    align-items: center;
    border-bottom-left-radius: 10rem;
    border-top-left-radius: 10rem;
