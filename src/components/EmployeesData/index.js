@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./style.css"
+import "./style.css";
 import employeesInfo from "../employees.json";
 import EmployeeRow from "../EmployeeRow";
 import Search from "../Search";
@@ -14,28 +14,30 @@ class EmployeesData extends Component {
    //    }
    // };
 
-   constructor() {
-      super()
+   constructor(props) {
+      super(props)
       this.state = {
          employeesInfo,
          direction: {
             name: "asc",
             phone_number: "asc",
-            email: "asc",
-            dob: "asc"
+            email: "asc"
          },
          search: ""
       }
       this.sortBy = this.sortBy.bind(this);
-   }
+   };
    
    sortBy(key) {
+      console.log(key);
+      console.log(this.state.direction);
       this.setState({
-         employeesInfo: employeesInfo.sort((a, b) =>
+         employeesInfo: this.state.employeesInfo.sort((a, b) =>
             (this.state.direction[key] === "asc"
-               ? a[key] - b[key] : b[key] - a[key]
+               ? a[key].localeCompare(b[key]) : b[key].localeCompare(a[key])               
             )),
          direction: {
+            ...this.state.direction,
             [key]: this.state.direction[key] === "asc" ? "desc" : "asc"
          }
       });
@@ -72,8 +74,8 @@ class EmployeesData extends Component {
                            onClick={() => this.sortBy("name")}
                         >
                            name&nbsp;
-                           <i class="fas fa-caret-up"></i>
-                           <i class="fas fa-caret-down"></i>
+                           <i className="fas fa-caret-up"></i>
+                           <i className="fas fa-caret-down"></i>
                         </button>
                      </th>
                      <th>
@@ -81,8 +83,8 @@ class EmployeesData extends Component {
                            onClick={() => this.sortBy("phone_number")}
                         >
                            phone number&nbsp;
-                           <i class="fas fa-caret-up"></i>
-                           <i class="fas fa-caret-down"></i>
+                           <i className="fas fa-caret-up"></i>
+                           <i className="fas fa-caret-down"></i>
                         </button>
                      </th>
                      <th>
@@ -90,8 +92,8 @@ class EmployeesData extends Component {
                            onClick={() => this.sortBy("email")}
                         >
                            email&nbsp;
-                           <i class="fas fa-caret-up"></i>
-                           <i class="fas fa-caret-down"></i>
+                           <i className="fas fa-caret-up"></i>
+                           <i className="fas fa-caret-down"></i>
                         </button>
                      </th>
                      <th>
@@ -99,30 +101,30 @@ class EmployeesData extends Component {
                            onClick={() => this.sortBy("dob")}
                         >
                            dob&nbsp;
-                           <i class="fas fa-caret-up"></i>
-                           <i class="fas fa-caret-down"></i>
+                           <i className="fas fa-caret-up"></i>
+                           <i className="fas fa-caret-down"></i>
                         </button>
                      </th>
                   </tr>
                </thead>
                <tbody>
-                     {filteredData.map(employee => (
-                        <EmployeeRow
-                           employeesInfo={this.state.employeesInfo}
-                           sortBy={this.sortBy}   
-                           id={employee.id}
-                           key={employee.id}
-                           photo={employee.photo}
-                           name={employee.name}
-                           phone_number={employee.phone_number}
-                           email={employee.email}
-                           dob={employee.dob}
-                        />
-                     ))}
+                  {filteredData.map(employee => (
+                     <EmployeeRow
+                        employeesInfo={this.state.employeesInfo}
+                        sortBy={this.sortBy}   
+                        id={employee.id}
+                        key={employee.id}
+                        photo={employee.photo}
+                        name={employee.name}
+                        phone_number={employee.phone_number}
+                        email={employee.email}
+                        dob={employee.dob}
+                     />
+                  ))}
                </tbody>
             </table>
          </main>
-         // {/* </React.Fragment> */}
+         // </React.Fragment>
       );
    };
 }

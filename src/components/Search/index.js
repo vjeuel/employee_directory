@@ -10,7 +10,6 @@ function Search(props) {
             type="text"
             value={props.search}
             onChange={props.onchange}
-            // icon="search"
          />
       </form>
    );

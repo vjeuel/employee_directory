@@ -28,26 +28,3 @@
       padding: 2rem 5rem;
       z-index: 1;
    }
-
-
-
-
-
-
-
-
-
-
-/* Color Theme Swatches in Hex */
-.A { color: #011F26; }
-.A { color: #118C76; }
-.A { color: #25D9B8; }
-.A { color: #F2BB16; }
-.A { color: #BF800B; }
-
-/* Color Theme Swatches in RGBA */
-.A { color: rgba(0, 31, 38, 1); }
-.A { color: rgba(16, 140, 117, 1); }
-.A { color: rgba(36, 216, 183, 1); }
-.A { color: rgba(242, 187, 21, 1); }
-.A { color: rgba(191, 128, 11, 1); }
