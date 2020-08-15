@@ -96,15 +96,7 @@ class EmployeesData extends Component {
                            <i className="fas fa-caret-down"></i>
                         </button>
                      </th>
-                     <th>
-                        <button
-                           onClick={() => this.sortBy("dob")}
-                        >
-                           dob&nbsp;
-                           <i className="fas fa-caret-up"></i>
-                           <i className="fas fa-caret-down"></i>
-                        </button>
-                     </th>
+                     <th>dob</th>
                   </tr>
                </thead>
                <tbody>
