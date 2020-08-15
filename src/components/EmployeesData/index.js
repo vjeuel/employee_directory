@@ -5,10 +5,11 @@ import EmployeeRow from "../EmployeeRow";
 import Search from "../Search";
 
 
-class EmployeesData extends Component {
+class EmployeesData extends React.Component {
    state = {
       employeesInfo,
-      search: ""
+      search: "",
+      sort: "asc"
    };
    
    onchange = event => {
@@ -20,9 +21,10 @@ class EmployeesData extends Component {
          employee => {
             return (
                employee.name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1
-            )}
+            )
+         }
       );
-
+               
       return (
          // <React.Fragment>
          <main>
@@ -34,7 +36,9 @@ class EmployeesData extends Component {
             </div>
             <div className="tableHead">
                <div>photo</div>
-               <div>name</div>
+               <div>
+                  <button>name</button>
+               </div>
                <div>phone number</div>
                <div>email</div>
                <div>dob</div>

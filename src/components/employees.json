@@ -1,7 +1,7 @@
 [
    {
       "id": 1,
-      "photo": "../images/Riley_Moore.jpg",
+      "photo": "/images/Riley_Moore.jpg",
       "name": "Riley Moore",
       "phone_number": "718-854-5922",
       "email": "riley_moore@companyname.com",
