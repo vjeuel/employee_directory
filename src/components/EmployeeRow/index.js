@@ -3,15 +3,15 @@ import "./style.css";
 
 function EmployeeRow(props) {
    return (
-      <div className="employeeRow">
-         <div>
+      <tr className="employeeRow">
+         <td>
             <img src={props.photo} alt={props.name} />
-         </div>
-         <div>{props.name}</div>
-         <div>{props.phone_number}</div>
-         <div>{props.email}</div>
-         <div>{props.dob}</div> 
-      </div>
+         </td>
+         <td>{props.name}</td>
+         <td>{props.phone_number}</td>
+         <td>{props.email}</td>
+         <td>{props.dob}</td>
+      </tr>
    );
 };
 

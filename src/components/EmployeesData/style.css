@@ -1,14 +1,5 @@
-.rowEmployees {
-   background-color: var(--wt);
-   margin-bottom: 1rem;
-   color: var(--dk);
-   padding: 1rem;
-   border-radius: 2rem;
-}
-
-.colTitle .colEmployees {
-   font-family: 'Libre Baskerville', serif;
-   font-size: 1.25rem;
+table {
+   width: 100%;
 }
 
 .tableHead {
@@ -22,8 +13,12 @@
    padding: 1rem;
 }
 
-.tableHead {
-   display: grid;
-   grid-template-columns: 15% 15% 15% 40% 15%;
+.tableHead button {
+   background-color: var(--dk);
+   color: var(--wt);
+   border: none;
 }
 
+.tableHead button:active {
+   color: var(--p2)
+}
