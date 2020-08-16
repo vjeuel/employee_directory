@@ -68,7 +68,7 @@ class EmployeesData extends Component {
             <table>
                <thead className="tableHead">
                   <tr>
-                     <th>photo</th>
+                     <th className="photo">photo</th>
                      <th>
                         <button
                            onClick={() => this.sortBy("name")}
@@ -82,7 +82,7 @@ class EmployeesData extends Component {
                         <button
                            onClick={() => this.sortBy("phone_number")}
                         >
-                           phone number&nbsp;
+                           phone&nbsp;
                            <i className="fas fa-caret-up"></i>
                            <i className="fas fa-caret-down"></i>
                         </button>

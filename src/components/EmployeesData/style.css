@@ -6,14 +6,19 @@ table {
    font-family: 'Special Elite', cursive;
    font-size: 1.5rem;
    color: var(--wt);
-   margin-bottom: 1rem;
 }
 
-.tableHead > div {
-   padding: 1rem;
+.tableHead tr {
+   height: 3rem;
+ 
+}
+
+.tableHead .photo {
+   width: 15%;
 }
 
 .tableHead button {
+   font-family: 'Special Elite', cursive;
    background-color: var(--dk);
    color: var(--wt);
    border: none;

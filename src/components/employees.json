@@ -145,7 +145,7 @@
    },
    {
       "id": 19,
-      "photo": "https://drive.google.com/file/d/1tYzpN13Vu6QrLxABfDOsemEF8fh3CvR1/view?usp=sharing",
+      "photo": "./images/Alex_Willis.jpg",
       "name": "Alex Willis",
       "phone_number": "972-231-5186",
       "email": "alex_willis@companyname.com",
@@ -185,7 +185,7 @@
    },
    {
       "id": 24,
-      "photo": "./images/Alexis_Butler.jpg",
+      "photo": "./images/Alexis_Butler",
       "name": "Alexis Butler",
       "phone_number": "214-803-5541",
       "email": "alexis_butler@companyname.com",
