@@ -1,5 +1,5 @@
 <p align="center">
-  [<img src="logo.png" height="100%">](https://vjeuel.github.io/employee_directory/)
+  <img src="logo.png" height="100%">(https://vjeuel.github.io/employee_directory/)
 </p>
 
 You can access the app [here](https://vjeuel.github.io/employee_directory/)
