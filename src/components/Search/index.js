@@ -5,7 +5,7 @@ function Search(props) {
    return (
       <form className="search">
          <input
-            placeholder="search by name, date of birth, email or phone number"
+            placeholder="search by name"
             id="allSearch"
             type="text"
             value={props.search}
