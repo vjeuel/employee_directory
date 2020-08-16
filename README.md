@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="logo.png" height="100%">(https://vjeuel.github.io/employee_directory/)
-</p>
+<a href="https://vjeuel.github.io/employee_directory" align="center">
+  <img src="logo.png" height="100%">
+</a>
 
 You can access the app [here](https://vjeuel.github.io/employee_directory/)
 
