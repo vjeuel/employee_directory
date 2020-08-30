@@ -6,7 +6,7 @@ You can access the app [here](https://vjeuel.github.io/employee_directory/)
 
 
 ## Description
-App created with React using class, where in a list of employees the user can search by name and can also sort the table by name, phone number and email. 
+App created with React using class, where in a list of employees the user can search by name and can also sort the table by name, phone number and email. The columns contains the employee photo, full name, phone number, email and date of birth. This app is useful for companies to sort thru a long list of employees to find a specific person.
 
 ## **License**<br>
 mit

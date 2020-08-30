@@ -1,7 +1,7 @@
 [
    {
       "id": 1,
-      "photo": "./images/Riley_Moore.jpg",
+      "photo": "/images/Riley_Moore.jpg",
       "name": "Riley Moore",
       "phone_number": "718-854-5922",
       "email": "riley_moore@companyname.com",
@@ -9,7 +9,7 @@
    },
    {
       "id": 2,
-      "photo": "./images/Erin_Anderson.jpg",
+      "photo": "/images/Erin_Anderson.jpg",
       "name": "Erin Anderson",
       "phone_number": "510-596-3045",
       "email": "erin_anderson@companyname.com",
@@ -17,7 +17,7 @@
    },
    {
       "id": 3,
-      "photo": "./images/Elliot_May.jpg",
+      "photo": "/images/Elliot_May.jpg",
       "name": "Elliot May",
       "phone_number": "941-276-0935",
       "email": "elliot_may@companyname.com",
